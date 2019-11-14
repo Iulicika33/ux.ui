@@ -1,0 +1,22 @@
+body{
+    font-family: "roboto" , sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+  background: #000;
+  height: 32px;
+  padding: 16px 32px;
+}
+.navbar>.links>li{
+    float: left;
+}
+.navbar>.links>li:not(.brand){
+    padding: 8px;
+}
+in acest exemplu urmatoarele modificari:
+1. distante intre linkuri de adaugat
+2. de reglat proximitatea in categoriile de linkuri
+3. reglam font size;
+4. color adobe com folosind acest instrument sa se extraga culorile dominante.
