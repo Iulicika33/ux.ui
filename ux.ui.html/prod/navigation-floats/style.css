@@ -1,0 +1,44 @@
+body{
+    font-family: "roboto" , sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+  background:#454F99;
+  height: 32px;
+  padding: 16px 32px;
+}
+.navbar>.links>li{
+    float: left;
+}
+.navbar>.links>li:not(.brand){
+    padding: 8px;
+}
+.link{
+    transform: translate(50px);
+    font-size: large;
+    margin-left: 30px;
+}
+.link a{
+    color: #D9F2FF;
+}
+.action{
+    transform: translate(800px);
+    font-size: medium;
+}
+.action a{
+    color: #CCA799;
+}
+.social{
+    transform: translate(900px);
+    font-size: large;
+}
+.social a{
+    color: #FFC499;
+}
+in acest exemplu urmatoarele modificari:
+1. distante intre linkuri de adaugat
+2. de reglat proximitatea in categoriile de linkuri
+3. reglam font size;
+4. color adobe com folosind acest instrument sa se extraga culorile dominante.
