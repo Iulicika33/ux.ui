@@ -1,0 +1,44 @@
+body{
+    background-image: url(images/\'985acccc.png\')
+}
+#player{
+    width: 33vmin;
+    height: 33vmin;
+    background-image: linear-gradient(black , white , black);
+    /**margin-top: 50vh;
+    transform: translateY(-16.5vmin);**/
+    margin-top: calc(50vh - 16.5vmin);
+    margin-left: calc(33vw - 16.5vmin);
+    border-radius: 50%;
+}
+#player>.film{
+    width: 10000px;
+    transform: translateY(calc((33vmin - (33vmin * 0.6) - 4vmin) / 2)) translateX(calc(16.5vmin - 33vw));
+    filter: drop-shadow(15px 15px 15px rgb(3, 3, 34));
+    In caz ca facem cu box-shadow culoarea este foarte concentrata.
+}
+#player .images img{
+    height: calc(33vmin * 0.6);
+    margin-right: 0.5vmin;
+    margin-bottom: -0.4vmin;
+}
+img{
+    opacity: 0.7;
+    animation: move 5s;
+}
+img:hover{
+    opacity: 1.0;
+    
+}
+#player .images{
+    background-color: #0008;
+}
+#player .border{
+    height: 2vmin;
+    background-image: radial-gradient(transparent 50% , #0008 50.1%);
+    background-size: 2vmin 2vmin;
+}
+@keyframes move {
+    from {}
+    to {right:50%;}
+}
