@@ -1,0 +1,8 @@
+css positioning:
+
+static
+relative pastreaza posibilitatile statickului dar permite totodata elementului sa se deplaseze liber fata de positia lui initiala,un fel de translate, prin coordonatele top, right, bottom, left(libertate locala primeste,locala). Z-index:primeste valori numerice intregi,positive si negative care arata nr stratului.
+
+absolute elementul positionat absolut paraseste fluxul curent (este scos din stratul curent) si este mutat intrun strat nou,flux nou. Toate celelalte elemente se comporta parca aceilalti nu ar exista. div absolut cind este plasat . bodefolt din start se masoara de la marginile ferestrei.
+fixed
+sticky
