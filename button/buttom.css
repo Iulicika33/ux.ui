@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(#0009, #0009) , url(images/865-1600x800.jpg);
+    background-color: black;
+    margin: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div{
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    
+}
+div:hover{
+    animation: effect 5s infinite;
+}
+button{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: white;
+    color: rgba(12, 65, 211, 0.842);
+    border: 0.1em solid white;
+    box-shadow: 00 2px 1px black;
+    transition: 0.3s;
+    outline: none;
+    position: relative;
+    top: 1.9em;
+    left: 1.9em;
+    font-size: 1em;
+}
+button:hover{
+    background-color: rgb(150, 52, 150);
+    color: black;
+}
+@keyframes effect{
+    from{background-image: radial-gradient(transparent 60%, #fff8 80%, transparent 81%), 
+                      radial-gradient(transparent 40%, #fff8 60%, transparent 61%),
+                      radial-gradient(transparent 30%, #fff8 50%, transparent 51%);}
+    
+    to{background-image: radial-gradient(transparent 70%, #fff8 90%, transparent 91%), 
+                         radial-gradient(transparent 50%, #fff8 70%, transparent 71%),
+                         radial-gradient(transparent 40%, #fff8 60%, transparent 61%);}
+}
