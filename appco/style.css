@@ -1,0 +1,119 @@
+.header {
+    margin: 0 auto;
+    position: relative;
+    width: 1100px;
+    background-image: linear-gradient(90deg, rgba(18,30,119,0.9164040616246498) 0%, rgba(70,40,185,0.8519782913165266) 47%, rgba(106,31,181,0.8575805322128851) 100%),  url(image/app-hero-bg.jpg);
+    background-repeat: no-repeat;
+    font-family: Quicksand;
+    
+}
+.photo{
+    position: relative;
+    top: 320px;
+    height: 600px;
+    background-image: url(image/hero-bg-shape.png);
+    background-repeat: no-repeat;
+    
+}
+.header .text{
+    position: absolute;
+    width: 430px;
+    transform: translateY(-420px) translateX(110px);
+}
+.header .text .bold{
+    font-weight: bold;
+}
+.header .text h1{
+    color: white;
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.header .text h2{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+.header .input{
+    color: red;
+}
+.header .input form input {
+    background-color: white;
+    border: 1px solid white;
+    position: absolute;
+    transform: translateY(-190px) translateX(110px);
+    z-index: 1;
+    width: 300px;
+    height: 50px;
+    border-radius:30px ;
+    padding-left: 30px;
+    color:rgba(65, 65, 65, 0.712);
+    
+    
+}
+.header .input button{
+    position: absolute;
+    transform: translateY(-188px) translateX(330px);
+    z-index: 1;
+    width: 110px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgba(70,40,185,0.8519782913165266);
+    border: 1px solid rgba(70,40,185,0.8519782913165266);
+    color: white;
+}
+.header .input button:hover{
+    background-color: white;
+    color: black;
+}
+.header .video{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transform: translateY(-100px) translateX(110px);
+}
+.header .video:hover{
+    animation: effect 2s infinite;
+}
+.header .video button{
+    background-color: white;
+    position: absolute;
+    transform: translateY(10px) translateX(10px);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: rgba(12, 65, 211, 0.842);
+    border: 0.1em solid white;
+    box-shadow: 00 2px 1px black;
+    transition: 0.3s;
+    outline: none;
+    
+    }
+    .header p{
+        transform: translateY(-145px) translateX(180px);
+        color: white;
+    }
+    .header .mobile img{
+        position: absolute;
+        height: 450px;
+        z-index: 2;
+        transform: translateY(-440px) translateX(630px);
+    }
+
+.header .video button:hover{
+    background-color: rgb(150, 52, 150);
+    color: white;
+}
+
+
+
+    @keyframes effect {
+        from{background-image: radial-gradient(transparent 60%, #fff8 80%, transparent 81%), 
+            radial-gradient(transparent 40%, #fff8 60%, transparent 61%),
+            radial-gradient(transparent 30%, #fff8 50%, transparent 51%);}
+
+        to{background-image: radial-gradient(transparent 70%, #fff8 90%, transparent 91%), 
+               radial-gradient(transparent 50%, #fff8 70%, transparent 71%),
+               radial-gradient(transparent 40%, #fff8 60%, transparent 61%);}
+
+    }
