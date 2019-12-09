@@ -1,0 +1,60 @@
+.general{
+    margin-top: 150px;
+    width: 1200px;
+}
+.general .first .section-contact{
+    width: 500px;
+    margin-left: 200px;
+}
+.general .first .section-contact h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.general .first .section-contact p{
+    font-size: 20px;
+    margin-top: 25px;
+    color: rgb(87, 90, 90);
+}
+.general .first .section-adress{
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.general .first .section-adress h3{
+    font-size: 20px;
+    color: rgb(87, 90, 90);
+}
+.general .first .section-adress p{
+    font-size: 17px;
+    color: rgb(87, 90, 90);
+    margin-top: 10px;
+}
+.general .first .section-adress ul{
+    margin-top: 30px;
+    color: rgb(87, 90, 90);
+    font-size: 17px;
+}
+.general .first .section-adress ul li{
+    margin-top: 10px;
+
+}
+.general .second{
+    
+}
+
+.general .second h2{
+    margin-left: 750px;
+    margin-top: -290px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.general .second .name{
+    margin-left: 750px;
+    width: 250px;
+    height: 50px;
+}
+.general .second .email{
+    margin-left: 1050px;
+    margin-top: -290px;
+    padding-left: 5px;
+}
