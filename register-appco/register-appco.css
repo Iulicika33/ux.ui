@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(233, 235, 236);
+}
+
+.general{
+    display: inline-block;
+    position: relative;
+    width: 1300px;
+    margin-top: 50px;
+    margin-left: 170px;
+}
+.general .inline-block{
+    display: inline-block;
+    
+}
+.general .first{
+    width: 550px;
+    margin-top: 70px;
+}
+.general .second{
+    position: absolute;
+    width: 650px;
+    margin-top: 60px;
+    margin-left: -40px;
+}
+.general .first .section-contact{
+    width: 500px;
+    
+}
+.general .first .section-contact h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.general .first .section-contact p{
+    font-size: 20px;
+    margin-top: 25px;
+    color: rgb(87, 90, 90);
+}
+.general .first .section-adress{
+    width: 500px;
+    
+    margin-top: 30px;
+}
+.general .first .section-adress h3{
+    font-size: 20px;
+    color: rgb(87, 90, 90);
+}
+.general .first .section-adress p{
+    font-size: 17px;
+    color: rgb(87, 90, 90);
+    margin-top: 10px;
+}
+.general .first .section-adress ul{
+    margin-top: 30px;
+    color: rgb(87, 90, 90);
+    font-size: 17px;
+}
+.general .first .section-adress ul li{
+    margin-top: 10px;
+
+}
+.general .second form input{
+    border: rgb(54, 52, 146);
+    width: 250px;
+    height: 50px;
+    margin-top:10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.general .second form{
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.general .second h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.general .second .big input{
+    width: 542px;
+    height: 190px;
+    
+}
+.general .second button{
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 155px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1.5px solid rgba(70,40,185,0.8519782913165266);
+    background-color: rgba(70,40,185,0.8519782913165266);
+    color: white;
+}
+.general .second button:hover{
+    background-color: white;
+    color: rgb(17, 74, 180);
+}
