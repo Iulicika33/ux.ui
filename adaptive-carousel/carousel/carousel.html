@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha256-gvEnj2axkqIj4wbYhPjbWV7zttgpzBVEgHub9AAZQD4=" crossorigin="anonymous" />
+
+        <!--style carousel-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+            integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+                integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+        integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="carousel.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="screens">
+        <div class="container">
+            <h1>App screenshots</h1>
+            <h2>Looks awesome</h2>
+            <p>Credibly synthesize multimedia based networks vis-a-vis top-line growth strategies. Continually leverage existing
+            worldwide interfaces</p>
+            <div class="carousel">
+            
+                <div class="owl-carousel">
+                    <div><img src="images/01.png"></div>
+                    <div><img src="images/02.png"></div>
+                    <div><img src="images/03.png"></div>
+                    <div><img src="images/04.png"></div>
+                    <div><img src="images/05.png"></div>
+                    <div><img src="images/06.png"></div>
+                </div>
+                <div class="frame"></div>
+            </div>
+        </div>
+    </section>
+    <!--logical carousel--><!--1.Jquery 2.Carousel (Dependenta)-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+     <!--Initializam(pornim)-->
+    <script>
+        $(document).ready(function () {
+                
+                $(".owl-carousel").owlCarousel({
+                    center: true,
+                    items: 4,
+                    margin: 20,
+                    loop: true,
+                    nav: true,
+                    autoplay: true,
+                    autoplayTimeout: 1000,
+                });
+            });
+    </script>
+</body>
+</html>

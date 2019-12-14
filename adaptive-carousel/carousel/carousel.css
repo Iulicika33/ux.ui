@@ -1,0 +1,42 @@
+#screens .container{
+    width: 1100px;
+    margin: auto;
+}
+#screens{
+    text-align: center;
+    background-color: #F0F3F8;
+}
+#screens .carousel{
+    padding: 50px 0;
+    position: relative;
+}
+#screens .carousel img{
+    width: 274px;
+    margin: auto;
+    border-radius: 30px;
+    transition: 0.5s;
+    transform: scale(0.85);
+}
+#screens .carousel .frame{
+    position: absolute;
+    width: 274px;
+    height: 550px;
+    /**centrare**/
+    margin: auto;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    background-image: url(images/phone-frame2.png);
+    transform: scale(1.1)
+}
+#screens .carousel .center img{
+    transform: scaleX(1) scaleY(1.2);
+    transition: 0.5s;
+}
+#screens .carousel .owl-nav{
+    position: absolute;
+    bottom: -60px;
+    left: 550px;
+}
