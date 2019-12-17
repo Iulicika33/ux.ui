@@ -1,0 +1,6 @@
+.last::placeholder{
+    color: red;
+}
+.last:focus::placeholder{
+    color: green;
+}
