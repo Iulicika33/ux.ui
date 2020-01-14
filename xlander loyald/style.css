@@ -1,0 +1,84 @@
+
+body{
+    font-family: 'Oswald';
+}
+.container{
+    width: 1100px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    position: relative;
+    height: 100vh;
+    background-image: radial-gradient(#000C 40%, #0005 41%);
+    background-size: 3px 3px;
+    color: white;
+}
+#header article{
+    display: inline-block;
+    width: 66%;
+    vertical-align: top;
+    /**aceasta proprietate lucreaza doar in inline-block sau table. Alineaza pe verticala**/
+}
+#header article h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1.3em;
+    transform:scaleX(1.5);
+    padding-right: 30%;
+    /**centru de transform punem pe latura din stinga.textul iesea din pagina**/
+    transform-origin: left;
+}
+#header article h2{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    transform: scaleX(1.5);
+    padding-right: 30%;
+    transform-origin: left;
+
+}
+#header article p{
+    font-size: 15px;
+    line-height: 1.3em;
+    transform: scaleX(1.5);
+    padding-right: 30%;
+    transform-origin: left;
+}
+#header form{
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+#header .bg-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+#header nav{
+    background-color: #000A;
+    margin-bottom: 10vh;
+}
+#header nav li{
+    display: inline-block;
+    font-size: 16px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    vertical-align: middle;
+    padding-left: 1.4em;
+}
+#header nav li a{
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#header nav .logo a{
+    font-size: 2em;
+}
