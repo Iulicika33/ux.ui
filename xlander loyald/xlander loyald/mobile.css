@@ -1,0 +1,51 @@
+@media screen and (max-width:500px){
+    body{
+        overflow-x: hidden;
+    }
+    .contanier{
+        width: 90%;
+    }
+    #header{
+        height: 130vh;
+    }
+    #header nav{
+        text-align: left;
+    }
+    #header nav li{
+        display: none;
+    }
+    #header nav .logo{
+        display: inline-block;
+        
+    }
+    #header nav .logo a{
+        font-size: 1.5em;
+    }
+    #header article{
+        text-align: center;
+        width: 100%;
+    }
+    #header article h1{
+        font-size: 50px;
+    }
+    #header article h2{
+        font-size: 17px;
+    }
+    #header article p{
+        font-size: 15px;
+    }
+    #header form{
+        width: 90%;
+        text-align: center;
+    }
+    #header .bg-video{
+        height: 130vh;
+    }
+    #header article div a{
+        
+    }
+    #header nav .burger{
+        display: inline-block;
+        text-align: left;
+    }
+}
