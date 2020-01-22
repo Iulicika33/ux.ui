@@ -1,0 +1,182 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f9f9f9;
+    color: black;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navbar{
+    display: inline-block;
+    position: fixed;
+    width: 400px;
+    top: 35px;
+    left: 15%;
+}
+.navbar .search{
+    position: relative;
+    width: 230px;
+    height: 25px;
+}
+.navbar input{
+    position: absolute;
+    font-size: 16px;
+    width: 250px;
+    height: 30px;
+    border: 2px solid #edeced;
+    border-radius: 3px;
+    margin-top: 25px;
+}
+.navbar input::placeholder {
+    padding-left: 20px;
+  }
+.navbar .icon{
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      color: #edeced;
+      border: none;
+      top: 5px;
+      background-color: #fff;
+      right: 0;
+      margin-top: 25px;
+  }
+  .navbar h1{
+      font-size: 18px;
+      margin-top: 50px;
+      font-weight: 700;
+      text-transform: uppercase;
+  }
+  .navbar ul {
+    margin-top: 15px;
+  }
+  .navbar li {
+  margin-top: 10px;
+}
+.navbar li i{
+    /**padding-left: 190px;
+    font-size: 13px;
+    color: #002538;**/
+}
+.navbar li:first-child i{
+    padding-left: 195px;
+    font-size: 13px;
+    color: #002538;
+}
+.navbar li:nth-child(2) i{
+    padding-left: 172px;
+    font-size: 13px;
+    color: #002538;
+}
+.navbar li:nth-child(3) i{
+    padding-left: 189px;
+    font-size: 13px;
+    color: #002538;
+}
+.navbar li:last-child i{
+    padding-left: 150px;
+    font-size: 13px;
+    color: #002538;
+}
+  .navbar li a{
+    text-decoration: none;
+    color: #002538;
+  }
+  .navbar li:last-child {
+    margin-top: 25px;
+  }
+  .navbar .funzone {
+      margin-top: 230px;
+      width: 250px;
+      height: 48px;
+      border-radius: 4px;
+      border: 1px solid #fc5f4a;
+      color: #fd7563;
+      font-weight: bold;
+      font-size: 15px;
+      text-transform: uppercase;
+      transition: 0.1s linear;
+  }
+  .navbar .funzone:hover {
+    color: #fff;
+    background-color: #fd7563;
+  }
+  .navbar .socialmedia {
+    margin-top: 15px;
+  }
+  .navbar .socialmedia a {
+    color: #788388;
+    opacity: 0.8;
+    padding: 0 11px;
+    font-size: 35px;
+    opacity: 0.3;
+  }
+  .navbar .socialmedia:hover a:first-child{
+      opacity: 1.0;
+      color: #0e4980;
+  }
+  .navbar .socialmedia:hover a:nth-child(2){
+      opacity: 1.0;
+      color: rgb(202, 50, 75);
+  }
+  .navbar .socialmedia:hover a:nth-child(3){
+      opacity: 1.0;
+      color: #0371bb;
+  }
+  .navbar .socialmedia:hover a:last-child{
+      opacity: 1.0;
+      color:rgb(247, 47, 47);
+  }
+.rightblock{
+    right: 0;
+    width: 800px;
+    position: absolute;
+}
+.rightblock .selectcontainer{
+    float: right;
+    margin-top: 70px;
+    margin-right: 32%;
+}
+.rightblock .selectcontainer p{
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.rightblock .selectcontainer .fas{
+    padding: 0 15px;
+    font-size: 13px;
+}
+.rightblock .container{
+    margin-top: 120px;
+    margin-left: -235px;
+}
+.rightblock .card{
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    background-color: #fff;
+}
+.rightblock .container .card img{
+    width: 250px;
+    height: 250px;
+}
+.rightblock .container .card .nameproduct{
+    position: absolute;
+    color: #002538;
+    font-size: 17px;
+    text-align: center;
+    left: 25%;
+    bottom: 85px;
+}
+.rightblock .container .card .price{
+    position: absolute;
+    color: #002538;
+    text-align: center;
+    font-size: 21px;
+    left: 35%;
+    bottom: 50px;
+}
