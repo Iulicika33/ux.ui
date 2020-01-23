@@ -1,0 +1,23 @@
+$color-l: brown;
+$color-d: yellow;
+$size: 10vh;
+
+body{
+    background-color: $color-d;
+}
+button{
+    background-image: linear-gradient(darken($color-l, 8%), lighten($color-l, 30%), darken($color-l, 8%));
+    width: $size;
+    height: $size;
+    border-radius: 100%;
+    border: 0.03 * $size solid darken($color-l, 8%);
+    color: lighten($color-l, 80%);
+    font-size: $size / 4;
+    text-shadow: 0.01 * $size 0.01 * $size 0.01 * $size darken($color-l, 8%);
+    box-shadow: 0 0 5px 3px darken($color-d, 30%);
+}
+button:hover{
+    background-image: linear-gradient(lighten($color-l, 30%), darken($color-l, 8%), lighten($color-l, 30%));
+    border-color: lighten($color-l, 30%);
+    box-shadow: 0 0 0.04 * $size 0.02 * $size darken($color-d, 30%);
+}
