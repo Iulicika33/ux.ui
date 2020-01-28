@@ -1,0 +1,143 @@
+/* Color Theme Swatches in Hex */
+body {
+  background-color: #777;
+}
+
+#circular {
+  width: 400px;
+  height: 400px;
+  background-color: #F24C27;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#circular li {
+  overflow: hidden;
+  border: 2px solid red;
+  width: 400px;
+  height: 400px;
+  top: 200px;
+  left: 200px;
+  position: absolute;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+#circular li:nth-child(1) {
+  position: absolute;
+  z-index: 1;
+  -webkit-transform: rotate(45deg) skew(45deg);
+          transform: rotate(45deg) skew(45deg);
+}
+
+#circular li:nth-child(1) a {
+  -webkit-transform: skew(-45deg);
+          transform: skew(-45deg);
+}
+
+#circular li:nth-child(2) {
+  position: absolute;
+  z-index: 1;
+  -webkit-transform: rotate(90deg) skew(45deg);
+          transform: rotate(90deg) skew(45deg);
+}
+
+#circular li:nth-child(2) a {
+  -webkit-transform: skew(-45deg);
+          transform: skew(-45deg);
+}
+
+#circular li:nth-child(3) {
+  position: absolute;
+  z-index: 1;
+  -webkit-transform: rotate(135deg) skew(45deg);
+          transform: rotate(135deg) skew(45deg);
+}
+
+#circular li:nth-child(3) a {
+  -webkit-transform: skew(-45deg);
+          transform: skew(-45deg);
+}
+
+#circular li:nth-child(4) {
+  position: absolute;
+  z-index: 1;
+  -webkit-transform: rotate(180deg) skew(45deg);
+          transform: rotate(180deg) skew(45deg);
+}
+
+#circular li:nth-child(4) a {
+  -webkit-transform: skew(-45deg);
+          transform: skew(-45deg);
+}
+
+#circular li:nth-child(5) {
+  position: absolute;
+  z-index: 1;
+  -webkit-transform: rotate(225deg) skew(45deg);
+          transform: rotate(225deg) skew(45deg);
+}
+
+#circular li:nth-child(5) a {
+  -webkit-transform: skew(-45deg);
+          transform: skew(-45deg);
+}
+
+#circular li:nth-child(6) {
+  position: absolute;
+  z-index: 1;
+  -webkit-transform: rotate(270deg) skew(45deg);
+          transform: rotate(270deg) skew(45deg);
+}
+
+#circular li:nth-child(6) a {
+  -webkit-transform: skew(-45deg);
+          transform: skew(-45deg);
+}
+
+#circular li:nth-child(7) {
+  position: absolute;
+  z-index: 1;
+  -webkit-transform: rotate(315deg) skew(45deg);
+          transform: rotate(315deg) skew(45deg);
+}
+
+#circular li:nth-child(7) a {
+  -webkit-transform: skew(-45deg);
+          transform: skew(-45deg);
+}
+
+#circular li:nth-child(8) {
+  position: absolute;
+  z-index: 1;
+  -webkit-transform: rotate(360deg) skew(45deg);
+          transform: rotate(360deg) skew(45deg);
+}
+
+#circular li:nth-child(8) a {
+  -webkit-transform: skew(-45deg);
+          transform: skew(-45deg);
+}
+
+#circular li a {
+  background-color: #D9B19A;
+  width: 400px;
+  height: 400px;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  left: -200px;
+  top: -200px;
+  opacity: 0.4;
+}
+
+#circular li a:hover {
+  background-color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,77 @@
+/* Color Theme Swatches in Hex */
+$color-1: #D94A64;
+$color-2: #F2D6B3;
+$color-3: #D9B19A;
+$color-4: #F24C27;
+$color-5: #A65B4B;
+$size:400px;
+
+
+@mixin center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+body{
+    background-color: #777;
+}
+#circular{
+    width: $size;
+    height: $size;
+    background-color: $color-4;
+    @include center;
+    border-radius: 50%;
+    overflow: hidden;
+    li{
+        overflow: hidden;
+        border: 2px solid red;
+        width: $size;
+        height: $size;
+        top: 0.5*$size;
+        left: 0.5*$size;
+        position: absolute;
+        transform-origin: 0 0;
+        @for $n from 1 through 8 {//acest for repeta nth child de 8 ori
+        &:nth-child(#{$n}){
+        position: absolute;
+        z-index: 1;
+        transform: rotate($n*45deg) skew(45deg);
+        a{
+            transform: skew(-45deg);
+        }
+        }
+    }
+        
+        
+        a{
+            background-color:$color-3;
+            width: $size;
+            height: $size;
+            display: block;
+            border-radius: 50%;
+            position: absolute;
+            left: -0.5 * $size;
+            top: -0.5 * $size;
+            opacity: 0.4;
+            &:hover{
+                background-color: &color-4;
+            }
+        }
+
+        &:nth-child(9){
+            overflow: visible;
+        a{
+            background-color: green;
+            z-index: 100;
+            width: $size / 2;
+            height: $size / 2;
+            top: -0.25 * $size;
+            left: -0.25 * $size;
+        }
+    }
+    }
+}
