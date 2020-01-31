@@ -1,0 +1,41 @@
+.header .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header .container .header_inner {
+  position: fixed;
+  display: inline-block;
+  background-color: black;
+  padding: 10px 0;
+}
+
+.header .container .header_inner .inline {
+  display: inline-block;
+}
+
+.header .container .header_logo {
+  width: 200px;
+}
+
+.header .container .search {
+  width: 230px;
+  height: 25px;
+  left: 0px;
+}
+
+.header .container .search input {
+  font-size: 16px;
+  width: 185px;
+  height: 30px;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+.header .container .search input icon {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+}
+/*# sourceMappingURL=style.css.map */
