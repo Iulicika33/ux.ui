@@ -1,0 +1,14 @@
+flexible (display) ---Inteligent (2016)---> 1dimension
+ *container/items
+ *direction : row, column
+ *start,end
+ *forward/reverse
+ *wrap
+ *aligment: start, end, center, space-...
+ *grow/shrink
+ *order
+
+
+
+
+grid(display) ---Inteligent (2018)---> 2dimensions
