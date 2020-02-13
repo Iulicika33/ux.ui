@@ -1,0 +1,25 @@
+
+body{
+    display: grid;
+    grid-template-rows: 1fr 7fr 2fr;
+    height: 100vh;
+}
+header{
+    background-color: rgb(21, 170, 145);
+}
+section{
+    display: grid;
+    background-color: limegreen;
+    grid-template-columns: 20% 60% 20%;
+}
+footer{
+    background-color: red;
+}
+article:nth-child(2){
+    display: grid;
+    background-color: yellow;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+p:nth-child(1){
+    grid-row: 1 / 4 ;
+}
